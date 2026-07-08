@@ -1,7 +1,7 @@
 import express from 'express'
 
 const app = express()
-const PORT = 8080
+const PORT = 443
 
 app.get('/', (req, res) => {
     res.json({ message: 'Hello From Server' })
